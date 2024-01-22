@@ -1,0 +1,10 @@
+a = [1,222,13,54,53.5,34,2342]
+fh = open("8_sortlist.txt","w")
+fh.write(str(a))
+a.sort()
+fh.write("\nAfter sort: ")
+fh.write(str(a))
+a.sort(reverse=True)
+fh.write("\nAfter sort(reverse): ")
+fh.write(str(a))
+fh.close()
